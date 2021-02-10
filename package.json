@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index",
+    "dev": "node --inspect-brk src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "BEERWARE",
   "dependencies": {
-    "@luasenvy/rapidfire": "^0.1.0",
+    "@luasenvy/rapidfire": "^0.1.8",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
