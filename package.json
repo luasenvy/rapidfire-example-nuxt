@@ -5,19 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index",
-    "dev": "node --inspect-brk src/index",
+    "dev": "node --inspect src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "BEERWARE",
   "dependencies": {
-    "@luasenvy/rapidfire": "^0.1.8",
-    "nuxt": "^2.14.12"
+    "@luasenvy/rapidfire": "^0.1.13",
+    "nuxt": "^2.15.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.19.0",
+    "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "husky": "^4.3.8",
